@@ -1,6 +1,6 @@
 # Neuroflow Labs
 
-Welcome to the Neuroflow Labs monorepo! This organization encompasses the core products and experiences that make up the Neuroflow ecosystem—a high-performance visual IDE for building and training machine learning models from first principles.
+Welcome to the Neuroflow Labs! This organization encompasses the core products and experiences that make up the Neuroflow ecosystem—a high-performance visual IDE for building and training machine learning models from first principles.
 
 ## Ecosystem Repositories
 
