@@ -1,10 +1,10 @@
 # Neuroflow Labs
 
-Welcome to the Neuroflow Labs! This organization encompasses the core products and experiences that make up the Neuroflow ecosystem—a high-performance visual IDE for building and training machine learning models from first principles.
+Welcome to the Neuroflow Labs! This organization encompasses the core products and experiences that make up the Neuroflow ecosystem — a simple, visual IDE for building and training machine learning models from first principles.
 
 ## Ecosystem Repositories
 
-This organization is divided into three primary projects to ensure modularity and separation of concerns:
+This organization is divided into two primary projects to ensure modularity and separation of concerns:
 
 ### 1. [neuroflow-client](./neuroflow-client)
 The frontend user interface and Electron desktop wrapper for the visual node editor.
@@ -16,16 +16,11 @@ The computational backend API that powers the data processing and machine learni
 - **Stack**: Python, Flask, NumPy.
 - **Role**: Implements algorithms from scratch (White-Box Machine Learning) and handles the heavy mathematical lifting behind the scenes without relying on opaque ML black-box libraries.
 
-### 3. [neuroflow-folks](./neuroflow-folks)
-The sleek, minimalistic landing/marketing page for the Neuroflow application.
-- **Stack**: Svelte, Vite, TailwindCSS.
-- **Role**: Designed with an ultra-clean "Zen Interface" aesthetic (Catppuccin Light/Pastel theme) to showcase the application's capabilities and provide download links.
-
 <br>
 
 ## Key Features
 
-- **White-Box Machine Learning**: Algorithms implemented from scratch using pure mathematics for maximum transparency.
+- **White-Box Machine Learning**: Algorithms implemented from scratch for maximum transparency.
 - **Visual Workflow Editor**: Design complex data flows visually, linking nodes like neurons.
 - **Real-time Evaluation**: Visualize model performance metrics and dendrograms instantly.
 - **Aesthetic First**: A native desktop experience built for speed and designed with a minimal, Notion-like UI.
@@ -45,13 +40,6 @@ uv sync && uv run app.py
 cd neuroflow-client
 npm install
 npm run dev:electron
-```
-
-**Start the Landing Page (Web)**:
-```bash
-cd neuroflow-folks
-npm install
-npm run dev
 ```
 
 <br>
