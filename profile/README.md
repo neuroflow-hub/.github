@@ -2,6 +2,8 @@
 
 Welcome to the Neuroflow Labs! This organization encompasses the core products and experiences that make up the Neuroflow ecosystem — a simple, visual IDE for building and training machine learning models from first principles.
 
+To download and play around with the application, download it from: https://neuroflow-ebon.vercel.app/
+
 ## Ecosystem Repositories
 
 This organization is divided into two primary projects to ensure modularity and separation of concerns:
